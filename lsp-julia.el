@@ -13,7 +13,7 @@
 ;;; Code:
 (require 'lsp-mode)
 
-(defcustom lsp-julia-default-environment "~/.julia/environments/v1.0"
+(defcustom lsp-julia-default-environment "~/.julia/environments/v1.1"
   "The path to the default environment."
   :type 'string
   :group 'lsp-julia)
@@ -33,7 +33,7 @@
   :type 'number
   :group 'lsp-julia)
 
-(defcustom lsp-julia-default-depot ""
+(defcustom lsp-julia-default-depot "~/.julia"
   "The default depot path, used if `JULIA_DEPOT_PATH' is unset"
   :type 'string
   :group 'lsp-julia)
